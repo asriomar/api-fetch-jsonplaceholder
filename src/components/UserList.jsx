@@ -105,8 +105,8 @@ const UserList = () => {
   }
 
   return (
-    <div className="p-4 mb-4">
-      <div className="bg-gradient-to-r from-sky-500 to-indigo-500 p-4">
+    <div className="p-4 ">
+      <div className="bg-gradient-to-r from-sky-500 to-indigo-500 p-4 mb-8 rounded-lg shadow-lg text-white">
          <h1 className="text-4xl font-bold text-center">CRUD using JSONPlaceholder</h1>
         <h2 className="text-3xl font-bold mb-4 text-center">Register User</h2>
         <p className="text-center">
@@ -115,7 +115,7 @@ const UserList = () => {
       </div>
      
       
-      <form className="mb-4" onSubmit={handleSubmit}>
+      <form className="mb-8 border border-2 p-5 rounded-lg shadow-lg" onSubmit={handleSubmit}>
         <div className="mb-2">
           <label className="block">Name:</label>
           <input
