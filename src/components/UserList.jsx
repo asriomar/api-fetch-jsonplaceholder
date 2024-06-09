@@ -105,7 +105,7 @@ const UserList = () => {
   }
 
   return (
-    <div className="p-4">
+    <div className="p-4 mb-4">
       <div className="bg-gradient-to-r from-sky-500 to-indigo-500 p-4">
          <h1 className="text-4xl font-bold text-center">CRUD using JSONPlaceholder</h1>
         <h2 className="text-3xl font-bold mb-4 text-center">Register User</h2>
@@ -159,7 +159,7 @@ const UserList = () => {
 
       <table className="min-w-full bg-white border border-gray-200">
         <thead>
-          <tr>
+          <tr className="hover:bg-gradient-to-r from-sky-200 to-indigo-200">
             <th className="py-2 px-4 border-b">ID</th>
             <th className="py-2 px-4 border-b">Name</th>
             <th className="py-2 px-4 border-b">Email</th>
