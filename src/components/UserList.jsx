@@ -28,6 +28,9 @@ const UserList = () => {
   return (
     <div className="p-4">
       <h1 className="text-4xl font-bold mb-4 text-center">User List</h1>
+      <p className="text-center p-3">
+          JSONPlaceholder is a free online REST API that you can use whenever you need some fake data. It can be in a README on GitHub, for a demo on CodeSandbox, in code examples on Stack Overflow, ...or simply to test things locally.
+      </p>
       <table className="min-w-full bg-white border border-gray-200">
         <thead className='bg-gradient-to-r from-sky-500 to-indigo-500'>
           <tr>
