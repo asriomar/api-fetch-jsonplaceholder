@@ -106,7 +106,7 @@ const UserList = () => {
 
   return (
     <div className="p-4">
-      <h1 className="text-4xl font-bold mb-4">User List</h1>
+      <h1 className="text-4xl font-bold mb-4 text-center">User List</h1>
       <p className="text-center">
         JSONPlaceholder is a free online REST API that you can use whenever you need some fake data. 
       </p>
